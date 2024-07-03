@@ -95,9 +95,9 @@ The parameters set by the user affect the learning process of the model and the 
   
   Parameter $\alpha$ is the Dirchlet-prior concentration parameter of the per-document topic distribution, determining the density of the topic distribution for each document. A smaller value of $\alpha$ leads to sparser topic distributions within documents, implying that each document tends to be associated with only a few topics. Conversely, a larger value of α results in more uniform topic distributions within documents, meaning that each document might encompass a broader range of topics. The appropriate value of $\alpha$ depends on the characteristics of the text data, usually between 0.01 and 1.
 
-- Parameter $/beta$
+- Parameter $\beta$
 
-  The parameter of the per-topic word distribution determines the density of the vocabulary distribution of each topic. A smaller value of $/beta$ results in sparser vocabulary distributions for topics, implying that each topic is likely to consist of a small number of words. A larger value of $/beta$ makes the vocabulary distribution of the topics more even. Similar to $/alpha$, the appropriate value of $/beta$ depends on the characteristics of the text, usually between 0.01 and 1.
+  The parameter of the per-topic word distribution determines the density of the vocabulary distribution of each topic. A smaller value of $\beta$ results in sparser vocabulary distributions for topics, implying that each topic is likely to consist of a small number of words. A larger value of $\beta$ makes the vocabulary distribution of the topics more even. Similar to $\alpha$, the appropriate value of $\beta$ depends on the characteristics of the text, usually between 0.01 and 1.
 
 - Number of Iterations
 
