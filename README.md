@@ -7,8 +7,9 @@ The LDA model in the project was tested on three news dataset sizes: **title tex
 ## Content
 - [1. Introduction & Overview](#1)
 - [2. Latent Dirichlet Allocation (LDA) Theory](#2)
-      -[2.1 Bayesian Inference](#2-1)
-      -[2.2 The Generative Process of LDA Model](#2-2)
-      -[2.3 Parameters Fitting](#2-3)
-      -[2.4 Assumption, Notation, and Algorithm](#2-4)
-      -[2.5 GibbsSampling](#2-5)
+  -[2.1 Bayesian Inference](#2-1)
+  -[2.2 The Generative Process of LDA Model](#2-2)
+  -[2.3 Parameters Fitting](#2-3)
+  -[2.4 Assumption, Notation, and Algorithm](#2-4)
+  -[2.5 GibbsSampling](#2-5)
+
