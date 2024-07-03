@@ -82,6 +82,9 @@ Specifically, before generating a new document, the document’s topic distribut
 </div>
 <p align="center">Figure 1: The Generative process of LDA model </p>
 
+For Document 1, the distribution of topics is characterized by 60% for Topic 1, 20% for Topic 2, and 20% for Topic 3. Similarly, for Document 2, the distribution of topics is 20% for Topic 1, 70% for Topic 2, and 10% for Topic 3. Within each topic, words follow a multinomial distribution, representing the probability distribution of words within the topic. In Topic 1, the probability of sampling "gender" is 11%, "harassment" is 5%, and "woman" is 3%.
+
+
 
 
 
