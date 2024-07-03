@@ -54,7 +54,11 @@ The form of Bayes theorem:
 $$\pi(\theta \mid \mathbf{x}) = \frac{\pi(\theta) f(\mathbf{x} \mid \theta)}{f(\mathbf{x})}$$
 
 - Prior
+  
 $\pi(\theta)$ is known as the prior distribution of $\theta$, which represents the initial understanding of an event and the assessment of its probability distribution before observing any new data. This prior information can be based on previous data, domain expertise, or subjective evaluation.
+
+- Likelihood
+$f(\mathbf{x} \mid \theta)$ is known as the likelihood function. It describes how data is gen- erated given certain parameters and quantifies the probability of observing data under different parameter values.
 
 
 
