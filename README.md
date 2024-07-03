@@ -46,9 +46,9 @@ In **Chapter 4**, the results are obtained, and the impact of varying text sizes
 
 In **Chapter 5**, the results of this analysis are discussed, and some directions for further study are provided.
 
-## Latent Dirichlet Allocation (LDA) Theory
+## 2. Latent Dirichlet Allocation (LDA) Theory
 
-### Bayesian Inference
+### 2.1 Bayesian Inference
 Bayesian inference is a method for calculating the probability of an event based on prior knowledge (prior beliefs or assumptions) and new evidence (outcomes of related events). It allows us to use new observational results to improve the model by iteratively updating the prior probability with more observational evidence, generating new posterior probabilities.
 
 The form of Bayes theorem:
@@ -73,7 +73,7 @@ $$\pi(\theta \mid \mathbf{x}) \propto \pi(\theta) f(\mathbf{x} \mid \theta)$$
 
 The posterior is proportional to the product of the likelihood and the prior.
 
-### The Generative Process of the LDA Model
+### 2.2 The Generative Process of the LDA Model
 
 The LDA model assumes that documents are composed of multiple topics, each topic consisting of a set of words. Each document is probabilistically assigned different topics, and each topic is probabilistically associated with different words. These topics are hidden in the model and cannot be directly observed. However, by introducing the Bayesian theorem, we can attempt to infer the possible topics in a document and their distributions by observing the words within the document. LDA model uses the Dirichlet distribution to model the distribution of topics and words. The Dirichlet distribution is a probability distribution that describes the distribution of a multinomial distribution. This hierarchical structure where documents are made up of topics, and topics are made up of words allows LDA to capture complex relationships between documents, topics, and words.
 
@@ -86,7 +86,7 @@ Specifically, before generating a new document, the document’s topic distribut
 
 For Document 1, the distribution of topics is characterized by 60% for Topic 1, 20% for Topic 2, and 20% for Topic 3. Similarly, for Document 2, the distribution of topics is 20% for Topic 1, 70% for Topic 2, and 10% for Topic 3. Within each topic, words follow a multinomial distribution, representing the probability distribution of words within the topic. In Topic 1, the probability of sampling "gender" is 11%, "harassment" is 5%, and "woman" is 3%.
 
-### Parameters Fitting
+### 2.3 Parameters Fitting
 The parameters set by the user affect the learning process of the model and the final result. These parameters are not obtained through data training but are determined by some prior knowledge or experience. The value of the parameter usually needs to be adjusted and optimized according to the actual situation. The values of these parameters can impact the performance of the LDA model and the generated topic distributions. The following are some of the main parameters in the LDA model:
 
 - Number of Topics (K)
@@ -105,7 +105,7 @@ The parameters set by the user affect the learning process of the model and the 
 
   LDA models are often trained using iterative algorithms like Gibbs sampling. Iterations refer to the number of times the algorithm performs sampling and updates parameters. A higher number of iterations means that the model requires more sampling and parameter updates, resulting in increased training time. A high number of iterations may lead to overfitting, while too few may cause the model to fail to adequately learn the topic structure. The suitable iteration counts to aid in the model converging to a stable state.
 
-### Assumption, Notation, and Algorithm
+### 2.4 Assumption, Notation, and Algorithm
 - N represents the total number of collection words in a document. A document is represented as $\mathbf{w}$ = { $\{w_1, w_2, \ldots, w_N\}$ }, where $w_n\$ is the nth word in sequence.
 
 - A corpus is represented as $\mathbf{D}$ = { $\{\mathbf{w}_1, \mathbf{w}_2, \ldots, \mathbf{w}_M\}\$ }, $M\$ is the number of documents.
