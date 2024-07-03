@@ -82,7 +82,7 @@ Specifically, before generating a new document, the document’s topic distribut
 <div align="center">
     <img src="plot/tgp.png" width="500px" alt="Figure 1">
 </div>
-<p align="center">Figure 1: The Generative process of LDA model </p>
+<p align="center">Figure 2.1: The Generative process of LDA model </p>
 
 For Document 1, the distribution of topics is characterized by 60% for Topic 1, 20% for Topic 2, and 20% for Topic 3. Similarly, for Document 2, the distribution of topics is 20% for Topic 1, 70% for Topic 2, and 10% for Topic 3. Within each topic, words follow a multinomial distribution, representing the probability distribution of words within the topic. In Topic 1, the probability of sampling "gender" is 11%, "harassment" is 5%, and "woman" is 3%.
 
@@ -130,6 +130,13 @@ The likelihood of the document can be represented as:
 
 $$\prod_{d=1}^{D} P(\theta_d \mid \alpha) \left( \prod_{n=1}^{N_d} \sum_{z_{d,n}} P(z_{d,n} \mid \theta_d) P(w_{d,n} \mid z_{d,n}, \varphi) \right)$$
 
+The objective of the likelihood function is to maximize the probability that the model generates the observed data so that the model can better explain the observed text data. Due to its computational infeasibility, methods such as Gibbs sampling and variational inference are usually used in practical applications to maximize the likelihood function to estimate the parameters and hidden variables of the model.
+
+<div align="center">
+    <img src="plot/pr.png" width="500px" alt="Figure 2">
+</div>
+<p align="center">Figure 2.2: The Generative process of LDA model (inspired by Blei’s diagram (Blei et al., 2003)). For Document 1, the distribution of topics is characterized by 60% for Topic 1, 20% for Topic 2, and 20% for Topic 3. Similarly, for Document 2, the distribution of topics is 20% for Topic 1, 70% for Topic 2, and 10% for Topic 3. Within each topic, words follow a multinomial distribution, representing the probability distribution of words within the topic. In Topic 1, the probability of sampling "gender" is 11%, "harassment" is 5%, and "woman" is 3%.
+ </p>
 
 
 
