@@ -124,7 +124,7 @@ Given parameters $\alpha$ and $\beta$, the joint distribution of $\theta$, z, an
 
 $$p(\theta, z, w \mid \alpha, \beta) = p(\theta \mid \alpha) \prod_{n=1}^{N} p(z_n \mid \theta) p(w_n \mid z_n, \beta)$$
 
-$p(\theta \mid \alpha)$ determines how likely it is to observe the topic distribution of $\theta$ conditional on \(\alpha\), \( p(z_n \mid \theta) \) is the probability of the individual topic assignment \( z_n \) of word \( n \) is conditional on the topic distribution of \(\theta\). \( p(w_n \mid z_n, \beta) \) is the probability of each word conditional on the topic assignment \( z_n \) and the word probabilities of the given topics which are determined by \(\beta\).
+$p(\theta \mid \alpha)$ determines how likely it is to observe the topic distribution of $\theta$ conditional on $\alpha$, $p(z_n \mid \theta)$ is the probability of the individual topic assignment $z_n$ of word $n$ is conditional on the topic distribution of $\theta. $p(w_n \mid z_n, \beta)$ is the probability of each word conditional on the topic assignment $z_n$ and the word probabilities of the given topics which are determined by $\beta.
 
 
 
