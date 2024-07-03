@@ -122,7 +122,7 @@ The LDA model assumes that the document is generated in the following way:
 
 Given parameters $\alpha$ and $\beta$, the joint distribution of $\theta$, z, and w is given by:
 
-$$p(\theta, z, \w \mid \alpha, \beta) = p(\theta \mid \alpha) \prod_{n=1}^{N} p(z_n \mid \theta) p(w_n \mid z_n, \beta)$$
+$$p(\theta, z, w \mid \alpha, \beta) = p(\theta \mid \alpha) \prod_{n=1}^{N} p(z_n \mid \theta) p(w_n \mid z_n, \beta)$$
 
 
 
