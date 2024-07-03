@@ -106,7 +106,7 @@ The parameters set by the user affect the learning process of the model and the 
 ### Assumption, Notation, and Algorithm
 - N represents the total number of collection words in a document. A document is represented as $\\mathbf{w} = \{w_1, w_2, \ldots, w_N\}\$ where $\(w_n\)$ is the nth word in sequence.
 
-- A corpus is represented as $\\mathbf{D} = \{\mathbf{w}_1, \mathbf{w}_2, \ldots, \mathbf{w}_M\}\), \(M\$ is the number of documents.
+- A corpus is represented as $\\mathbf{D} = \{\mathbf{w}_1, \mathbf{w}_2, \ldots, \mathbf{w}_M\}\), \M\$ is the number of documents.
 
 
 
