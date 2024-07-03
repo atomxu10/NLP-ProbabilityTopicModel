@@ -51,7 +51,7 @@ Bayesian inference is a method for calculating the probability of an event based
 
 The form of Bayes theorem:
 
-$\pi(\theta \mid \mathbf{x}) = \frac{\pi(\theta) f(\mathbf{x} \mid \theta)}{f(\mathbf{x})}$
+$$\pi(\theta \mid \mathbf{x}) = \frac{\pi(\theta) f(\mathbf{x} \mid \theta)}{f(\mathbf{x})}$$
 
 
 
