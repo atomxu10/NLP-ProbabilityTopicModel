@@ -108,6 +108,11 @@ The parameters set by the user affect the learning process of the model and the 
 
 - A corpus is represented as $\mathbf{D}$ = { $\{\mathbf{w}_1, \mathbf{w}_2, \ldots, \mathbf{w}_M\}\$ }, $M\$ is the number of documents.
 
+The LDA model assumes that the document is generated in the following way:
+
+1. Determine the number of topics K required, and determine the document length N
+2. Obtain the parameter θ from the Dirichlet distribution of the hyper-parameter $\alpha$.
+3. For each word token wn in the document
 
 
 
