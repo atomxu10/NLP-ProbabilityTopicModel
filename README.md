@@ -171,7 +171,7 @@ The raw database was pre-processed to make it better for use and analysis. The p
 
 2. Remove Stopwords
 
-  Stopwords appear frequently in the text but do not often have real meaning. Examples of stopwords include words such as ’I’, ’me’, ’my’, ’myself’, etc. Removing stopwords could reduce the text noise and improve the accuracy of text analysis.
+   Stopwords appear frequently in the text but do not often have real meaning. Examples of stopwords include words such as ’I’, ’me’, ’my’, ’myself’, etc. Removing stopwords could reduce the text noise and improve the accuracy of text analysis.
 
 3. Stemming and Lemmatisation
 
