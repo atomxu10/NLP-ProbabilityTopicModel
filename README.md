@@ -118,6 +118,9 @@ The LDA model assumes that the document is generated in the following way:
    
      (a) Sampling topic z from a multinomial distribution with $\theta$ as a parameter, $z_n \sim \text{Multinomial}(\theta)\$.
 
+     (b) The word distribution is determined by sampling, which is jointly determined by topic z and hyperparameter $\beta$.
+
+
 
 
 
