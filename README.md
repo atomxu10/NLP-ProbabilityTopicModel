@@ -113,6 +113,7 @@ The LDA model assumes that the document is generated in the following way:
 1. Determine the number of topics K required, and determine the document length N
 2. Obtain the parameter θ from the Dirichlet distribution of the hyper-parameter $\alpha$.
 3. For each word token $w_n\$ in the document
+   
      (a) haha
 
 
