@@ -4,6 +4,8 @@ This project aimed to introduce, explain, and use probabilistic topic models, a 
 
 The LDA model in the project was tested on three news dataset sizes: **title text, body text, and full content** to investigate the impact of text data size. The evaluation criteria for model quality were **classification efficiency** and **coherence score**.
 
+All corresponding codes (Python) can be found in the [lda.py](https://github.com/atomxu10/NLP-ProbabilityTopicModel/blob/main/lda.py)
+
 ## Content
 - [1. Introduction & Overview](#1)
 - [2. Latent Dirichlet Allocation (LDA) Theory](#2)
