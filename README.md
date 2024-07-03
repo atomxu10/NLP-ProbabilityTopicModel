@@ -135,7 +135,7 @@ The objective of the likelihood function is to maximize the probability that the
 <div align="center">
     <img src="plot/pr.png" width="500px" alt="Figure 2">
 </div>
-<p align="center">Figure 2.2: Plate representation of LDA generative document process (inspired by Blei’s diagram (Blei et al., 2003)). 
+<p align="center">Figure 2.2: Plate representation of LDA generative document process (inspired by Blei’s diagram (Blei et al., 2003)). </p>
   
 In Figure 2.2, each variable is denoted by nodes, and arrows mark the generation process of nodes. The proportion parameter($\alpha$), topic proportions($\theta$), assignments(w), and topics($\beta$) are not shaded. The observed word (w) is shaded. The rectangles are “plate” notation, which represents replication. The N plate represents the collection words within documents; the M plate denotes the total number of documents within the collection.
 
@@ -144,3 +144,19 @@ In Figure 2.2, each variable is denoted by nodes, and arrows mark the generation
 The method of performing numerical computations through probabilistic simulations is collectively referred to as the Monte Carlo method, while the MCMC method is known as Markov Chain Monte Carlo (Carlo, 2004). MCMC is a specific type of Monte Carlo method, where the previous sample value is used to stochastically generate the next sample value, thereby creating a Markov chain. The purpose of MCMC algorithms is to construct a Markov chain with the target posterior distribution as its stationary distribution, facilitating subsequent sampling (Darling, 2011).
 
 Gibbs sampling is an MCMC method for estimating the implicit structures of topic assignment to documents and words (Darling, 2011). Under the condition that direct sampling is difficult and the conditional distribution is known, a variable is updated from known variable values and Bayes’ theorem to make the conditional distribution converge. This process is repeated, and finally, a sample set that conforms to a multidimensional distribution is obtained. In the LDA model, Gibbs sampling iteratively samples the topic of each word from a conditional distribution and gradually converges to a stable state that approximates the topic distribution of the document. The goal of this method is to obtain optimal parameter estimates, including latent parameters of the LDA model, topic-word distribution, document-topic distribution, and assignment of topics to individual words in a document (Schwarz, 2018).
+
+## 3. Method
+
+The flowchart of the method of using the LDA model as a classifier to explore the impact of different text sizes on classification is shown in Figure 3.1.
+
+<div align="center">
+    <img src="plot/fc.png" width="500px" alt="Figure 3">
+</div>
+<p align="center">The flowchart of the method using the LDA model as a classifier </p>
+
+
+
+
+
+
+
