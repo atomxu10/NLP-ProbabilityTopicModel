@@ -116,7 +116,7 @@ The LDA model assumes that the document is generated in the following way:
 2. Obtain the parameter θ from the Dirichlet distribution of the hyper-parameter $\alpha$.
 3. For each word token $w_n\$ in the document
    
-     (a) haha
+     (a) Sampling topic z from a multinomial distribution with $\theta$ as a parameter, $\z_n \sim \text{Multinomial}(\theta)\$.
 
 
 
