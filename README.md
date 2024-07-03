@@ -11,7 +11,14 @@ The LDA model in the project was tested on three news dataset sizes: **title tex
   - [2.2 The Generative Process of LDA Model](#2-2)
   - [2.3 Parameters Fitting](#2-3)
   - [2.4 Assumption, Notation, and Algorithm](#2-4)
-  - [2.5 GibbsSampling](#2-5)
-
-hehe
+  - [2.5 Gibbs Sampling](#2-5)
+- [3. Method](#3)
+  - [3.1 Data](#3-1)
+  - [3.2 Model Construction](#3-2)
+    - [3.2.1 Pre-processing of Data](#3-2-1)
+    - [3.2.2 Model Specification](#3-2-2)
+    - [3.2.3 Label Topics](#3-2-3)
+  - [3.3 Classification Analysis](#3-3)
+    - [3.3.1 Topics Visualisation](#3-3-1)
+    - [3.3.2 Prediction Accuracy](#3-3-2) 
 
