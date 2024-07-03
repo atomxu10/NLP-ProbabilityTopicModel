@@ -28,11 +28,13 @@ With the development of the internet, information is provided to people in vario
 
 The probabilistic topic model is an unsupervised analytical tool to uncover hidden thematic structures from text and to establish probabilistic relationships between texts and topics. The LDA topic model is one of the most common and widely applied probabilistic topic models. It is characterized by its Bayesian foundation, which aids in revealing the distribution of topics in textual data, the relationships between topics, and the connections between topics and vocabulary. Practical applications of probabilistic topic models included text classification, information retrieval, content analysis, and content modeling, among other fields. By unearthing the underlying themes within textual data, the model could offer a deeper comprehension and analysis of textual content.
 
-This dissertation attempted to investigate the use of the LDA model and evaluate its quality. Particularly, this article intends to answer three questions:
+This project attempted to investigate the use of the LDA model and evaluate its quality. Particularly, it intends to answer three questions:
 
-Q1: Does the size of the text have an impact on the recognition and classification of the model when using the LDA topic model as a classifier?
-Q2: How can hyper-parameters be utilized to improve model efficiency?
-Q3: How does the size of the text data affect the interpretability of the LDA model?
+**Q1: Does the size of the text have an impact on the recognition and classification of the model when using the LDA topic model as a classifier?**
+
+**Q2: How can hyper-parameters be utilized to improve model efficiency?**
+
+**Q3: How does the size of the text data affect the interpretability of the LDA model?**
 
 
 
