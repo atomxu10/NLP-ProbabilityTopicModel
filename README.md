@@ -104,7 +104,7 @@ The parameters set by the user affect the learning process of the model and the 
   LDA models are often trained using iterative algorithms like Gibbs sampling. Iterations refer to the number of times the algorithm performs sampling and updates parameters. A higher number of iterations means that the model requires more sampling and parameter updates, resulting in increased training time. A high number of iterations may lead to overfitting, while too few may cause the model to fail to adequately learn the topic structure. The suitable iteration counts to aid in the model converging to a stable state.
 
 ### Assumption, Notation, and Algorithm
-- N represents the total number of collection words in a document. A document is represented as $\\mathbf{w} = {w_1, w_2, \ldots, w_N\}$ where $\(w_n\)$ is the nth word in sequence.
+- N represents the total number of collection words in a document. A document is represented as $\mathbf{w} = \{w_1, w_2, \ldots, w_N\}$ where $\(w_n\)$ is the nth word in sequence.
 
 - A corpus is represented as $\mathbf{D} = \{\mathbf{w}_1, \mathbf{w}_2, \ldots, \mathbf{w}_M\}\$, $M\$ is the number of documents.
 
