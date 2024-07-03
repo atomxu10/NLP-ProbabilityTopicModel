@@ -126,6 +126,9 @@ $$p(\theta, z, w \mid \alpha, \beta) = p(\theta \mid \alpha) \prod_{n=1}^{N} p(z
 
 $p(\theta \mid \alpha)$ determines how likely it is to observe the topic distribution of $\theta$ conditional on $\alpha$, $p(z_n \mid \theta)$ is the probability of the individual topic assignment $z_n$ of word $n$ is conditional on the topic distribution of $\theta$. $p(w_n \mid z_n, \beta)$ is the probability of each word conditional on the topic assignment $z_n$ and the word probabilities of the given topics which are determined by $\beta$.
 
+The likelihood of the document can be represented as:
+
+$$\prod_{d=1}^{D} P(\theta_d \mid \alpha) \left( \prod_{n=1}^{N_d} \sum_{z_{d,n}} P(z_{d,n} \mid \theta_d) P(w_{d,n} \mid z_{d,n}, \varphi) \right)$$
 
 
 
