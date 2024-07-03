@@ -36,6 +36,14 @@ This project attempted to investigate the use of the LDA model and evaluate its 
 
 **Q3: How does the size of the text data affect the interpretability of the LDA model?**
 
+In **Chapter 2**, the principles and different parameters of the model will be introduced. Gibbs sampling, which is an inference method applied to the LDA model for processing and operating on text data, will also be introduced.
+
+**Chapter 3** is divided into two main sections. The first section is dedicated to the exposition of the dataset and the process of constructing the model. Within this section, a comprehensive account of the data preprocessing procedures is provided. Detailed specifications of the model, as well as the methodology employed by labeling the topics to the model in preparation for subsequent categorization analysis are elucidated. The second section contains an introduction to the enhancement of model performance, as well as a description of the methods and criteria employed for evaluating model performance.
+
+In **Chapter 4**, the results are obtained, and the impact of varying text sizes on the classification of the LDA topic model is discussed. Additionally, an anal- ysis of model performance enhancement through hyper-parameter optimization is conducted.
+
+In **Chapter 5**, the results of this analysis are discussed, and some directions for further study are provided.
+
 
 
 
