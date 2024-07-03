@@ -135,5 +135,7 @@ The objective of the likelihood function is to maximize the probability that the
 <div align="center">
     <img src="plot/pr.png" width="500px" alt="Figure 2">
 </div>
-<p align="center">Figure 2.2: Plate representation of LDA generative document process (inspired by Blei’s diagram (Blei et al., 2003)). Each variable is denoted by nodes, and arrows mark the generation process of nodes. The proportion parameter($\alpha$), topic proportions($\theta$), assignments(w), and topics($\beta$) are not shaded. The observed word (w) is shaded. The rectangles are “plate” notation, which represents replication. The N plate represents the collection words within documents; the M plate denotes the total number of documents within the collection.
+<p align="center">Figure 2.2: Plate representation of LDA generative document process (inspired by Blei’s diagram (Blei et al., 2003)). 
+  
+Each variable is denoted by nodes, and arrows mark the generation process of nodes. The proportion parameter($\alpha$), topic proportions($\theta$), assignments(w), and topics($\beta$) are not shaded. The observed word (w) is shaded. The rectangles are “plate” notation, which represents replication. The N plate represents the collection words within documents; the M plate denotes the total number of documents within the collection.
 
