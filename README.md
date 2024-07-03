@@ -150,7 +150,7 @@ Gibbs sampling is an MCMC method for estimating the implicit structures of topic
 The flowchart of the method of using the LDA model as a classifier to explore the impact of different text sizes on classification is shown in Figure 3.1.
 
 <div align="center">
-    <img src="plot/fc.png" width="800px" alt="Figure 3">
+    <img src="plot/fc.png" width="700px" alt="Figure 3">
 </div>
 <p align="center">The flowchart of the method using the LDA model as a classifier </p>
 
