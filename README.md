@@ -253,9 +253,20 @@ Table 4.2 and Table 4.3 display the topic contribution rates of each category in
 </div>
 <p align="center"> Table 4.2: The proportion of the highest topic contribution in 4 categories exceeds 40%, allowing for direct labeling (principle (a) in Section 3.2.3). The highest topic contribution rate in 9 categories exceeds 30%. The average of the highest- contributing topic proportions (the first column) is 35.3%. Different topics have obvious "bias" for different categories.</p>
 
+<div align="center">
+    <img src="plot/f43.png" width="500px" alt="Figure 3">
+</div>
+<p align="center"> Table 4.3: Percentage of topics in each category (full text). In 6 categories, the highest-contributing topic proportions were over 40%, allowing for direct labeling. Please note that Topic 6 appears in 2 different categories, and labeling should be based on subjective judgment (principle (a) in Section 3.2.3). The highest topic contribution rates in 11 categories exceed 25%. The average of the highest-contributing topic proportions is 38.4%.</p>
 
+<div align="center">
+    <img src="plot/f44.png" width="500px" alt="Figure 3">
+</div>
+<p align="center"> Table 4.4: Topic label (body text) & Top 5 Salient words for each topic.</p>
 
-
+<div align="center">
+    <img src="plot/f45.png" width="500px" alt="Figure 3">
+</div>
+<p align="center"> Table 4.5: Topic label (full text) & Top 5 Salient words for each topic</p>
 
 
 
