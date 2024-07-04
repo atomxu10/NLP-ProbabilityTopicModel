@@ -311,14 +311,21 @@ Once the appropriate number of topics is determined, finding the right combinati
 <div align="center">
     <img src="plot/t48.png" width="500px" alt="Figure 3">
 </div>
-<p align="center"> Table 4.8: The parameter combination results for Model A based on grid search (K=9). The coherence score reaches its maximum value of 0.3504 (with α = 0.01 and β = 0.01) within the parameter grid, which is a 7.1% improvement compared to the initial values (Table 4.7) </p>
+<p align="center"> Table 4.8: The parameter combination results for Model A based on grid search (K=9). The coherence score reaches its maximum value of 0.3504 (with $\alpha$ = 0.01 and $\beta$ = 0.01) within the parameter grid, which is a 7.1% improvement compared to the initial values (Table 4.7) </p>
 
 <div align="center">
     <img src="plot/t49.png" width="500px" alt="Figure 3">
 </div>
-<p align="center"> Table 4.9: The parameter combination results for Model B based on grid search (K=11). The coherence score reaches its maximum value of 0.3497 ( α = asym- metric, β = symmetric) within the parameter grid, which is a 5.8% improvement compared to the initial values (Table 4.7). </p>
+<p align="center"> Table 4.9: The parameter combination results for Model B based on grid search (K=11). The coherence score reaches its maximum value of 0.3497 ( $\alpha$ = asymmetric, $\beta$ = symmetric) within the parameter grid, which is a 5.8% improvement compared to the initial values (Table 4.7). </p>
 
+## 5. Conclusion
+When using an LDA model for text classification in Section 4.1, it was observed that the significance of the new topics generated varies depending on the training dataset. Models trained by fewer texts tend to generate topics with less distinctiveness, and the distribution of topics across different categories tends to be more even. Therefore, using a model trained on fewer texts as a classifier may not be a good choice.
 
+From the classification results presented in Table 4.6, it was evident that models trained on texts with the maximum word count performed the best, achieving an accuracy rate of 39.2% with default parameters. This indicates that as the text length increased, more information was contained, leading to better classification performance.
+
+If we consider factors beyond just using the model as a classifier, training by a larger amount of text data does not necessarily mean that the overall model performance will be better. In the second part of the article, the exploration used the coherence score as a reference metric to assess the model’s performance. Through this exploration, it could be observed that models trained by different text sizes had an optimal number of topics, as shown in Figures 4.2 and 4.3. The article employed a grid search approach to obtain the best parameters for different models, and further adjusting these parameters could enhance the overall performance of both models, as shown in Tables 4.8 and 4.9. However, it was important to note that after parameter optimization, the model trained by the largest text size may not necessarily have the highest coherence score.
+
+In conclusion, increasing the amount of text data does not directly translate to improved model performance. Model performance depends on various factors, such as the number of topics and parameter tuning. The article’s research indicates that by carefully selecting the number of topics and optimizing parameters, the performance of LDA models can be enhanced, without relying solely on increasing the text data size.
 
 
 
