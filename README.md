@@ -202,9 +202,15 @@ The following are the specific steps for labeling:
 2. As shown in Figure 3.3, the top three topics in the proportion of documents in each category are listed separately, which is convenient for labeling the topics.
 
 <div align="center">
-    <img src="plot/f33.png" width="700px" alt="Figure 3">
+    <img src="plot/f33.png" width="680px" alt="Figure 3">
 </div>
 <p align="center"> Figure 3.3: Percentage of each topic in each category in the document.</p>
 
+3. The principle of topic labeling is as follows
+   (a) If a topic holds a proportion of over 40% within a category, it signifies that in the training set, this topic carries substantial weight in documents belonging to that category, and is considered to be "closely associated" with that category. Hence, during the first allocation, this topic is labeled as belonging to that category. As shown in Figure 3.3, topic 2 is labeled as “Arts & culture because it has a proportion of 47.5% (over 40%) within that category. Each topic corresponds uniquely to a news category. If a topic simultaneously holds the highest proportion in two different news categories, both over 40%, the model designer should intervene with subjective judgment.
+
+   (b) A second allocation is made to topics that account for less than 40% but still have a high proportion. As shown in Figure 3.3, within the "business" category, both topic 10 and topic 7 hold relatively high proportions and are relatively close in value. Consequently, topic 10 and topic 7 are more likely to be labeled “business”. In the second allocation, there may be situations where one topic corresponds to multiple categories, requiring model designers to intervene in subjective judgment and adjustment.
+
+   (c) After the first two allocations, if the topic still has no labels, it should be manually labeled by the model designer after checking the high-frequency words in the topic.
 
 
