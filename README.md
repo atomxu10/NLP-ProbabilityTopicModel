@@ -277,8 +277,12 @@ It shows that the boundaries between topics are not clearly defined from the mod
 </div>
 <p align="center"> Figure 4.1: Comparison of the topic distribution visualizations of two models (Left: body text; Right: full text). The visualization on the left shows that topics 2, 6, 8, and 10 overlap with each other, and topics 12 and 13 highly overlap with topic 1. On the right-hand side, there is overlap only among topics 1, 3, and 6.</p>
 
+In Table 4.6. The model trained by the body text achieves a classification accuracy of 31.5% on the testing set, while the accuracy of the classification from the model trained by the full text is 39.2%. It can be considered that the classification performance of the latter as a classifier is better than that of the former.
 
-
+<div align="center">
+    <img src="plot/t46.png" width="500px" alt="Figure 3">
+</div>
+<p align="center"> Table 4.6: The classification accuracy of the prediction from testing set.</p>
 
 
 
