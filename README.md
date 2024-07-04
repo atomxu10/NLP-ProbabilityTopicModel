@@ -273,7 +273,7 @@ Table 4.2 and Table 4.3 display the topic contribution rates of each category in
 It shows that the boundaries between topics are not clearly defined from the model trained by the body text, and there are varying degrees of overlap between topics (Figure 4.1: Left). It suggests that these topics are not fully distinguishable from each other, potentially affecting the interpretability of the model and the clarity of the topics. The model trained by the full text exhibits less overlap and relatively larger distances between topics (Figure 4.1: Right).
 
 <div align="center">
-    <img src="plot/ctd.png" width="550px" alt="Figure 3">
+    <img src="plot/ctd.png" width="700px" alt="Figure 3">
 </div>
 <p align="center"> Figure 4.1: Comparison of the topic distribution visualizations of two models (Left: body text; Right: full text). The visualization on the left shows that topics 2, 6, 8, and 10 overlap with each other, and topics 12 and 13 highly overlap with topic 1. On the right-hand side, there is overlap only among topics 1, 3, and 6.</p>
 
