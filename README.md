@@ -22,7 +22,19 @@ All corresponding codes can be found in the [lda.py](https://github.com/atomxu10
     - [3.2.3 Label Topics](#3-2-3)
   - [3.3 Classification Analysis](#3-3)
     - [3.3.1 Topics Visualisation](#3-3-1)
-    - [3.3.2 Prediction Accuracy](#3-3-2) 
+    - [3.3.2 Prediction Accuracy](#3-3-2)
+  - [3.4 Augmented Model Optimisation](#3-4)
+    - [3.4.1 Goodness of Fit Testing: Coherence Score](#3-4-1)
+    - [3.4.2 Number of Topics (K)](#3-4-2)
+    - [3.4.3 Dirichlet Hyperparameter ($\alpha$ and $\beta$)](#3-4-3)
+- [4. Result](#4)
+  -[4.1 Overall Result of Classifier](#4-1)
+    -[4.1.1 Topic Labelling Analysis](#4-1-1)
+    -[4.1.2 Model Comparison](#4-1-2)
+  -[4.2 Hyperparameter Tuning](#4-2)
+    -[4.2.1 Number of Topics (K)](#4-2-1)
+    -[4.2.2 Parameter $\alpha$ and $\beta$](#4-2-2)
+- [5. Conclusion](#5)
 
 ## 1. Introduction & Overview
 
