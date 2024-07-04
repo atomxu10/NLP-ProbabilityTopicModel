@@ -299,5 +299,16 @@ With parameters α and β set to default values, Model A and Model B achieve max
 </div>
 <p align="center"> Figure 4.2: Coherence score for Model A with different numbers of topics, The coherence score reaches its maximum value of 0.3456 at K=9, which is a 5.6% improvement compared to the initial value at K=14.</p>
 
+<div align="center">
+    <img src="plot/csm2.png" width="500px" alt="Figure 3">
+</div>
+<p align="center"> Figure 4.3: Coherence score for Model B with different numbers of topics, The coherence score reaches its maximum value of 0.3397 at K=11, which is a 2.8% improvement compared to the initial value at K=14. </p>
+
+
+
+
+
+
+
 
 
