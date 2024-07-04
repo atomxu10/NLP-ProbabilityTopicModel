@@ -304,6 +304,19 @@ With parameters α and β set to default values, Model A and Model B achieve max
 </div>
 <p align="center"> Figure 4.3: Coherence score for Model B with different numbers of topics, The coherence score reaches its maximum value of 0.3397 at K=11, which is a 2.8% improvement compared to the initial value at K=14. </p>
 
+#### 4.2.2 Parameter $\alpha$ and $\beta$
+
+Once the appropriate number of topics is determined, finding the right combination of alpha and beta parameters can maximize model performance. Considering the model training time, the step size for α and β was set to 0.2. Tables 4.8 and 4.9 show the top five parameter combinations ranked by coherence scores.
+
+<div align="center">
+    <img src="plot/t48.png" width="500px" alt="Figure 3">
+</div>
+<p align="center"> Table 4.8: The parameter combination results for Model A based on grid search (K=9). The coherence score reaches its maximum value of 0.3504 (with α = 0.01 and β = 0.01) within the parameter grid, which is a 7.1% improvement compared to the initial values (Table 4.7) </p>
+
+<div align="center">
+    <img src="plot/t49.png" width="500px" alt="Figure 3">
+</div>
+<p align="center"> Table 4.9: The parameter combination results for Model B based on grid search (K=11). The coherence score reaches its maximum value of 0.3497 ( α = asym- metric, β = symmetric) within the parameter grid, which is a 5.8% improvement compared to the initial values (Table 4.7). </p>
 
 
 
