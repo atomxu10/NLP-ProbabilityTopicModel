@@ -194,5 +194,10 @@ The correspondence between the generated topics and the known categories is not 
 The following are the specific steps for labeling:
 1. As shown in Figure 3.2, LDA assumes that each article is composed of multiple topics, and the "contribution" of each topic is different. Therefore, the topic with the highest contribution proportion is defined as the primary topic of that news article.
 
+<div align="center">
+    <img src="plot/f32.png" width="700px" alt="Figure 3">
+</div>
+<p align="center"> Figure 3.2: Percentage of each topic in each document. Topic 9 accounts for 34.7% of article 1, and it is considered that this topic contributes the most to this article, so article 1 belongs to topic 9. Similarly, article 2 belongs to topic 6 (28.4%), and article 3 belongs to topic 1 (50.7%).</p>
+
 
 
