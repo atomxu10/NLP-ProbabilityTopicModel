@@ -282,9 +282,15 @@ In Table 4.6. The model trained by the body text achieves a classification accur
 <div align="center">
     <img src="plot/t46.png" width="500px" alt="Figure 3">
 </div>
-<p align="center"> Table 4.6: The classification accuracy of the prediction from testing set.</p>
+<p align="center"> Table 4.6: The classification accuracy of the prediction from the testing set.</p>
 
+### 4.2 Hyperparameter Tuning
+In this section, The model trained by body text is labeled as "Model A" and the model trained by full text is labeled as "Model B”. The optimization effect of the model is evaluated based on the coherence score (mentioned in Section 3.4.1). Before adjusting the parameters, record the initial coherence scores of the two models (Table 4.7).
 
+<div align="center">
+    <img src="plot/t47.png" width="500px" alt="Figure 3">
+</div>
+<p align="center"> Table 4.7: Coherence score for K=14 (same as number of news categories) in model A and model B. The coherence score of model B is greater than that of model A, which means that the topics of model B are more interpretable and understandable when K=14. </p>
 
 
 
