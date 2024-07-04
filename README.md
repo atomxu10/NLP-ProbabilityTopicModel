@@ -244,12 +244,12 @@ In the LDA model generated using title text as the training set (Table 4.1), the
 Table 4.2 and Table 4.3 display the topic contribution rates of each category in the LDA models generated using body text and full text as the training set. There is a clear distinction in the contribution rates of topics across different categories. Therefore, the labeling principles used in Section 3.2.3 are applicable. Table 4.4 and Table 4.5 present the salient terms for each topic in the two models and the results of labels for each topic.
 
 <div align="center">
-    <img src="plot/f41.png" width="680px" alt="Figure 3">
+    <img src="plot/f41.png" width="500px" alt="Figure 3">
 </div>
 <p align="center"> Table 4.1: Percentage of topic contribution in each category (title text). The highest contribution topic proportions for each news category do not exceed 12%. The average proportion of the top-contributing topic is 10.19%, the second-contributing topic is 9.32%, and the third-contributing topic is 8.73%, which shows that in each category, the distinguishability of topic contribution rates is not obvious.</p>
 
 <div align="center">
-    <img src="plot/f42.png" width="680px" alt="Figure 3">
+    <img src="plot/f42.png" width="500px" alt="Figure 3">
 </div>
 <p align="center"> Table 4.2: The proportion of the highest topic contribution in 4 categories exceeds 40%, allowing for direct labeling (principle (a) in Section 3.2.3). The highest topic contribution rate in 9 categories exceeds 30%. The average of the highest- contributing topic proportions (the first column) is 35.3%. Different topics have obvious "bias" for different categories.</p>
 
