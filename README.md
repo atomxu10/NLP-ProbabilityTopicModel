@@ -35,7 +35,7 @@ All corresponding codes can be found in the [lda.py](https://github.com/atomxu10
     - [4.2.1 Number of Topics (K)](#4-2-1)
     - [4.2.2 Parameter $\alpha$ and $\beta$](#4-2-2)
 - [5. Conclusion](#5)
-
+<a name="1"></a>
 ## 1. Introduction & Overview
 
 With the development of the internet, information is provided to people in various forms, such as texts, images, audio, and videos. However, as the information continues to grow, the necessity of developing an efficient tool to process, comprehend, and analyze this information becomes essential. Consequently, in the field of text information retrieval, extensive research is conducted in areas including text summarisation, text extraction, and dimensionality reduction. Researchers believe that if a substantial amount of textual data is converted into some low-dimensional subspaces through some tools, information covering this type of text data can be harvested, and then it can be "zoomed in or out" to access and explore the information we desire. Among them, the probabilistic topic model is one of the models with rapid development and mature application.
@@ -58,8 +58,10 @@ In **Chapter 4**, the results are obtained, and the impact of varying text sizes
 
 In **Chapter 5**, the results of this analysis are discussed, and some directions for further study are provided.
 
+<a name="2"></a>
 ## 2. Latent Dirichlet Allocation (LDA) Theory
 
+<a name="2-1"></a>
 ### 2.1 Bayesian Inference
 Bayesian inference is a method for calculating the probability of an event based on prior knowledge (prior beliefs or assumptions) and new evidence (outcomes of related events). It allows us to use new observational results to improve the model by iteratively updating the prior probability with more observational evidence, generating new posterior probabilities.
 
@@ -85,6 +87,7 @@ $$\pi(\theta \mid \mathbf{x}) \propto \pi(\theta) f(\mathbf{x} \mid \theta)$$
 
 The posterior is proportional to the product of the likelihood and the prior.
 
+<a name="2-2"></a>
 ### 2.2 The Generative Process of the LDA Model
 
 The LDA model assumes that documents are composed of multiple topics, each topic consisting of a set of words. Each document is probabilistically assigned different topics, and each topic is probabilistically associated with different words. These topics are hidden in the model and cannot be directly observed. However, by introducing the Bayesian theorem, we can attempt to infer the possible topics in a document and their distributions by observing the words within the document. LDA model uses the Dirichlet distribution to model the distribution of topics and words. The Dirichlet distribution is a probability distribution that describes the distribution of a multinomial distribution. This hierarchical structure where documents are made up of topics, and topics are made up of words allows LDA to capture complex relationships between documents, topics, and words.
