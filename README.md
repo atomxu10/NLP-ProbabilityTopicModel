@@ -292,6 +292,12 @@ In this section, The model trained by body text is labeled as "Model A" and the 
 </div>
 <p align="center"> Table 4.7: Coherence score for K=14 (same as number of news categories) in model A and model B. The coherence score of model B is greater than that of model A, which means that the topics of model B are more interpretable and understandable when K=14. </p>
 
+#### 4.2.1 Number of Topics (K)
+With parameters α and β set to default values, Model A and Model B achieve maximum coherence scores at 9 and 11 topics, respectively (Figure 4.2 and 4.3). Therefore, these values are chosen as the optimal number of topics for the models.
+<div align="center">
+    <img src="plot/csm.png" width="500px" alt="Figure 3">
+</div>
+<p align="center"> Figure 4.2: Coherence score for Model A with different numbers of topics, The coherence score reaches its maximum value of 0.3456 at K=9, which is a 5.6% improvement compared to the initial value at K=14.</p>
 
 
 
