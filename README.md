@@ -199,5 +199,12 @@ The following are the specific steps for labeling:
 </div>
 <p align="center"> Figure 3.2: Percentage of each topic in each document. Topic 9 accounts for 34.7% of article 1, and it is considered that this topic contributes the most to this article, so article 1 belongs to topic 9. Similarly, article 2 belongs to topic 6 (28.4%), and article 3 belongs to topic 1 (50.7%).</p>
 
+2. As shown in Figure 3.3, the top three topics in the proportion of documents in each category are listed separately, which is convenient for labeling the topics.
+
+<div align="center">
+    <img src="plot/f33.png" width="700px" alt="Figure 3">
+</div>
+<p align="center"> Figure 3.3: Percentage of each topic in each category in the document.</p>
+
 
 
