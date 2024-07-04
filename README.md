@@ -214,26 +214,27 @@ The following are the specific steps for labeling:
 
    (c) After the first two allocations, if the topic still has no labels, it should be manually labeled by the model designer after checking the high-frequency words in the topic.
 
-### Classification Analysis
-#### Topics Visualisation
+### 3.3 Classification Analysis
+#### 3.3.1 Topics Visualisation
 To estimate the impact of different text sizes on the classification performance of the classifier, three datasets are used to create separate LDA models for the training sets. As mentioned in Section 3.2.3, each labeled topic corresponds to a unique category, implying that there was a certain level of "distinctiveness" among topics. Topics are visualized in a way that allows for a better understanding- ing and interpretation of individual topics, as well as the relationships between them. If a model generates topics with a high degree of word overlap in their vocabulary, labeling these topics becomes challenging. In visualization, the occurrence of overlap among topics can lead to increased complexity in interpreting the model, and this complexity might be due to the data itself. Generally, we aspire for topics in LDA visualization to be more dispersed. This implies that each topic has more unique words, and the boundaries between topics are clearer and can be better distinguished.
 
-#### Prediction Accuracy
+#### 3.3.2 Prediction Accuracy
 Predictive accuracy is an evaluation metric that reflects a model’s ability to correctly classify samples. By applying various models to the test dataset and calculating their predictive accuracy, the classification performance of each model can be quantified and compared. This approach not only aids in assessing model performance under different conditions but also provides evidence for model selection and optimization. Therefore, the comparison of predictive accuracies among different models offers more accurate and reliable conclusions for our research.
 
-### Augmented Model Optimisation
+### 3.4 Augmented Model Optimisation
 The optimization of the LDA model aims to improve its adaptability for a more accurate interpretation of text data and effective topic analysis. By adjusting parameters, the model can be optimized to improve the accuracy of topic modeling and enhance text classification performance.
 
-#### Goodness of Fit Testing: Coherence Score
+#### 3.4.1 Goodness of Fit Testing: Coherence Score
 To aid users in understanding trends and developments in specific domains, researchers have proposed the method of topic coherence to assess the quality and interpretability of topic models (Aletras and Stevenson, 2013). It is used to measure the semantic relevance of words in a topic, specifically measuring the semantic similarity between the first few high-frequency words within the topic. A topic is considered to possess a high coherence score when the vocabulary contained within the topic exhibits close relationships, determined by calculating the mean or median of pairwise word-similarity scores among the words comprising the topic.
 
 One of the most popular coherence metrics is called Cv, which was found by Röder et al. in 2015 to have high interpretability and is widely used to evaluate topic models. It is also the default setting in Gensim-CoherenceModel in Python. It gets the coherence score by calculating the average of all cosine similarities between each topic word and its topic vector. The topic model is trained by K topics and the most probable words N per topic.
 
-#### Number of Topics (K)
+#### 3.4.2 Number of Topics (K)
 A low number of topics results in either too few or overly broad topics, while a high number of topics leads to topics that are difficult to interpret. Therefore, selecting the appropriate value for K (the number of topics) is an important task in LDA. As mentioned in Section 3.4.1, a higher coherence score indicates better model interpretability and it increases with an increase in the number of topics. Therefore, choosing the model with the highest coherence score before it levels off or sharply decreases is meaningful when determining the number of topics. For this model, the parameters $\alpha$ and $\beta$ are set to their default values. In the Python Gensim package, the default parameter for alpha is set to ’symmetric,’ which means that each document has the same alpha value. During the modeling process, the default parameter for beta is ’None’ which means Gensim automatically estimates beta based on the document data.
 
+#### 3.4.3 Dirichlet Hyperparameter ($\alpha$ and $\beta$)
 
-
+Grid search is a method of hyperparameter optimization that can automatically find the best combination of hyperparameters. Based on Section 3.4.2, we select the value of k that achieves the highest coherence score as the number of topics and proceed to determine the best combinations of $\alpha$ and $\beta$. In the same way as determining the optimal number of topics, we select the best combination of model parameters using the Coherence score as a criterion.
 
 
 
